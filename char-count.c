@@ -2,11 +2,11 @@
 /* prints the number of chars in a file */
 main()
 {
-int c, chars;
+  double chars;
 
-chars = 0;
- while ((c = getchar()) != EOF) {
-  chars += 1;
+  chars = 0;
+  while (getchar() != EOF) {
+	++chars;
 							  }
- printf("%d\n", chars);
+  printf("%.0f\n", chars);
 }
