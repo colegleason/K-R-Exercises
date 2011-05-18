@@ -5,8 +5,8 @@ main()
   double chars;
 
   chars = 0;
-  while (getchar() != EOF) {
+  while (getchar() != EOF)
 	++chars;
-							  }
+
   printf("%.0f\n", chars);
 }
