@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SPACE '_'
+#define SPACE ' '
 #define TAB '\t'
 
 /* K&R 1-21 entab: replaces minimum number of spaces with tabs */
