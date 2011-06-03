@@ -2,7 +2,7 @@
 
 /* count chars. tabs, blanks, and newlines */
 
-main()
+int main()
 {
   int c;
   double nc, nt, nb, nl;

@@ -6,7 +6,7 @@
 
 
 /* print Fahrenheit-Celsius table in reverse*/
-main()
+int main()
 {
   int fahr;
 

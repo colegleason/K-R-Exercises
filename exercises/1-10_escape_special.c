@@ -2,7 +2,7 @@
 
 /* escape tabs, backspaces, and backslashes */
 
-main()
+int main()
 {
   int c;
   while ((c = getchar()) != EOF) {

@@ -2,7 +2,7 @@
 
 /* verifys that getchar() != EOF results in 1 or 0 */
 
-main()
+int main()
 {
 
   int c, a;

@@ -2,7 +2,7 @@
 
 /* replaces strings of one or more blanks with a single blank */
 
-main()
+int main()
 {
   int c, nb;
   while ((c = getchar()) != EOF) {

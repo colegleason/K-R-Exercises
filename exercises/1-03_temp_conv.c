@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
 int min, max, step;
 float fahr, cels;

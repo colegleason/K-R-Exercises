@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define SPACE ' '
 #define TAB '\t'
 
@@ -43,4 +44,5 @@ int main ( int argc, char *argv[] )
 	}
 	pos++; // next pos
   }
+  return 0;
 }

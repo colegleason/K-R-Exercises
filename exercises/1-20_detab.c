@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define SPACE ' '
 #define TAB '\t'
 
 /* K&R 1-20 detab: replaces tabs with spaces */
 int Spaces(int N, int position);
 
-main( int argc, char *argv[] )
+int main( int argc, char *argv[] )
 {
   int N; //columns per tabstop
   int position, spaces, c, a;
@@ -35,6 +36,7 @@ main( int argc, char *argv[] )
 	  ++position;
 	}
 			}
+  return 0;
 }
 
 int Spaces(int N, int position)
